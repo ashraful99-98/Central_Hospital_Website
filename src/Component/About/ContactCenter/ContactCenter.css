@@ -1,0 +1,30 @@
+.contact-center{
+    padding: 50px 0;
+    background-color: #F4F5F6;
+}
+
+/* emergency section 
+ */
+ .person-info{
+     padding-top: 50px;
+ }
+ .info{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     text-align: left;
+ }
+ .emergency-icon{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     margin:10px 0;
+     padding: 10px;
+     background-color: #E6D3FE;
+    }
+    .emergency-single{
+     filter: #fff(100%);
+     margin-right: 2px;
+     width: 25px;
+ }

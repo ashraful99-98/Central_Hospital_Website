@@ -1,0 +1,17 @@
+.member{
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.member-info{
+    width: 50%;
+    padding: 0 30px;
+}
+.member-img{
+    width: 50%;
+}
+.member-img img{
+    width: 100%;
+}

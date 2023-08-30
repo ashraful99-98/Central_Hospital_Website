@@ -1,0 +1,28 @@
+/* Services */
+.services{
+    margin: 100px  0;
+}
+.services h1{
+    color: #1B3042;
+    font-size: 50px;
+    text-shadow: 5px 10px 10px gray;
+}
+.services h2{
+    color: #1B3042;
+}
+.services p{
+    color: #1B3042;
+    margin-bottom: 50px;
+}
+.browse-div{
+    margin-top: 70px;
+}
+.browse-btn{
+   text-decoration: none;
+   background-color: #dd2612;
+   padding: 7px 15px;
+   color: #fff;
+}
+.browse-btn:hover{
+    color: #fff;
+}

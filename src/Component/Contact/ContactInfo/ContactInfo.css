@@ -1,0 +1,12 @@
+.small-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}

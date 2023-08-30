@@ -1,0 +1,33 @@
+.appointment{
+    background-color: #102739;
+    color: #fff;
+    padding: 70px;
+}
+.appointment-here h1{
+    margin-bottom: 20px;
+}
+.appointment-btn{
+    padding: 8px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #102739;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+.appointment-btn:hover{
+    background-color: #fff;
+    color: blue;
+}
+/* healthy section  */
+.healthy{
+    background-color: #F6F7F9;
+}
+.health-info{
+    padding: 60px 0;
+}
+.hr-row{
+    height: 4px;
+    width: 20px;
+    text-align: center;
+}

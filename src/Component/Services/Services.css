@@ -1,0 +1,33 @@
+.our-services{
+  background-image: url('../images/services.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.services-header{
+    font-weight: bold;
+}
+/* all services  */
+.all-services{
+    padding: 50px 0;
+}
+ /* medical */
+.medical{
+    background-color: #F5F8FA;
+    padding: 60px 0;
+}
+.medical-info h1{
+    padding: 15px;
+}
+.medical-image{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.medical-img{
+    width: 60px; 
+}
+/* doctor  */
+.doctor{
+    padding: 60px 0;
+}

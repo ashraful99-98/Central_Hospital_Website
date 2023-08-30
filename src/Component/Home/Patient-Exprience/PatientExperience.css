@@ -1,0 +1,50 @@
+.the-patient{
+    margin: 70px 0;
+    background-color: #180137;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.patient-info{
+    padding-left: 70px;
+}
+.patient-btn{
+    border: none;
+    background-color: aliceblue;
+    padding: 7px 25px;
+    color: #180137;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.patient-img{
+    width: 700px;
+}
+/* health care  */
+.health-care{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.health-care-img{
+    margin-left: -110px;
+}
+.health-care-img img{
+    width: 94%;
+}
+.health-care-info{
+    width: 60%;
+}
+.bold{
+    font-weight: bold;
+}
+.health-care-btn{
+    border: none;
+    padding: 9px 27px;
+    background-color: #5106B4;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}

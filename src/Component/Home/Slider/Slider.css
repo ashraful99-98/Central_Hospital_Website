@@ -1,0 +1,94 @@
+.home .slides-container .slide {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    display: none;
+}
+
+.home .slides-container .slide.active {
+    display: flex;
+}
+
+.home .slides-container .slide .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+    -webkit-animation: fadeLeft .4s linear .4s backwards;
+    animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home .slides-container .slide .content span {
+    text-transform: capitalize;
+    color: #396CF0;
+    font-size: 1.6rem;
+}
+
+.home .slides-container .slide .content h3 {
+    font-size: 3.5rem;
+    color: #111;
+    padding: .5rem 0;
+    text-transform: uppercase;
+}
+
+.home .slides-container .slide .image {
+    flex: 1 1 40rem;
+    margin: 3rem 0;
+}
+
+.home .slides-container .slide .image img {
+    width: 90%;
+    -webkit-animation: fadeUp .4s linear;
+    animation: fadeUp .4s linear;
+}
+
+.home .slides-container .slide .slide-btn {
+    background-color: #396CF0;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #396CF0;
+}
+
+.home .slides-container .slide .slide-btn:hover {
+    background-color: antiquewhite;
+    color: #222;
+    border: 1px solid #222;
+}
+
+.home #next-slide,
+.home #prev-slide {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #fff;
+    font-size: 3rem;
+    color: #222;
+    cursor: pointer;
+}
+
+.home #next-slide:hover,
+.home #prev-slide:hover {
+    color: #fff;
+}
+
+.home #prev-slide {
+    left: 2rem;
+}
+
+.home #next-slide {
+    right: 2rem;
+}

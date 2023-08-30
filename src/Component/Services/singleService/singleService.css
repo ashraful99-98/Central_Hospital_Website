@@ -1,0 +1,17 @@
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.card-h4:hover{
+  color: blue;
+}
+.read-more-btn{
+    text-decoration: none;
+    font-weight: 700;
+}
+.small-footer{
+    color: red;
+    font-weight: 700;
+}
